@@ -1,0 +1,13 @@
+
+> macvivado@0.1.0 test
+> vitest run
+
+
+ RUN  v5.0.5 /Users/tylermcclure/Documents/macvivado
+
+
+ Test Files  3 passed (3)
+      Tests  26 passed (26)
+   Start at  19:05:37
+   Duration  13.76s (tests 99%, import 1%)
+

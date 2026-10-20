@@ -1,0 +1,18 @@
+
+Running 1 test using 1 worker
+
+(node:50744) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+Packaged app launched {
+  packaged: true,
+  userData: '/Users/tylermcclure/Library/Application Support/MacVivado'
+}
+Verified native tools available in app-managed storage
+Project open requested {
+  root: '/Users/tylermcclure/Documents/macvivado/.cache/packaged check/Project with spaces 1792451250366',
+  busy: false
+}
+Packaged simulation and bitstream succeeded; disconnected Program remains disabled
+  ✓  1 tests/e2e/packaged.spec.ts:8:1 › packaged ARM64 app installs offline tools and builds without a shell setup (6.5s)
+
+  1 passed (6.7s)

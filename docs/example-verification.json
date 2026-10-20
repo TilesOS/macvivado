@@ -1,0 +1,134 @@
+{
+  "verifiedAt": "2026-10-19T23:05:16.676Z",
+  "platform": "darwin-arm64",
+  "toolchain": "xc7-3e5c2cdd-oss-20261019",
+  "hardwareVerified": false,
+  "results": [
+    {
+      "id": "1792451092198-cbcfacf8",
+      "action": "simulate",
+      "directory": "/Users/tylermcclure/Documents/macvivado/.cache/verification/Projects with spaces/blink/.macvivado/simulations/1792451092198-cbcfacf8",
+      "status": "success",
+      "startedAt": "2026-10-19T23:04:52.198Z",
+      "fingerprint": "bcc9056ffaf161670e4f0ce1f2e842a0795fdbbd62c6abec8ad1e04bb639d9f8",
+      "toolchain": "xc7-3e5c2cdd-oss-20261019",
+      "diagnostics": [],
+      "stages": [
+        "Compile simulation",
+        "Run testbench"
+      ],
+      "waveform": {
+        "signals": 8,
+        "endTime": 156000,
+        "timescale": "1 ps",
+        "truncated": false
+      },
+      "message": "Simulation completed; VCD captured.",
+      "finishedAt": "2026-10-19T23:04:52.460Z"
+    },
+    {
+      "id": "1792451092460-19fd1b89",
+      "action": "build",
+      "directory": "/Users/tylermcclure/Documents/macvivado/.cache/verification/Projects with spaces/blink/.macvivado/builds/1792451092460-19fd1b89",
+      "status": "success",
+      "startedAt": "2026-10-19T23:04:52.460Z",
+      "fingerprint": "bcc9056ffaf161670e4f0ce1f2e842a0795fdbbd62c6abec8ad1e04bb639d9f8",
+      "toolchain": "xc7-3e5c2cdd-oss-20261019",
+      "diagnostics": [],
+      "stages": [
+        "Synthesize · Yosys",
+        "Place & route · nextpnr",
+        "Convert FASM · Project X-Ray",
+        "Generate bitstream · Project X-Ray"
+      ],
+      "bitstream": "/Users/tylermcclure/Documents/macvivado/.cache/verification/Projects with spaces/blink/.macvivado/builds/1792451092460-19fd1b89/design.bit",
+      "bitstreamSha256": "ffbfd6a72db990b183db51511063eb921e396f4c8417d54811c9a0b77b3ae6fb",
+      "message": "Bitstream generated. Physical hardware verification pending.",
+      "finishedAt": "2026-10-19T23:05:02.531Z"
+    },
+    {
+      "id": "1792451102535-f78ed662",
+      "action": "simulate",
+      "directory": "/Users/tylermcclure/Documents/macvivado/.cache/verification/Projects with spaces/switch-to-led/.macvivado/simulations/1792451102535-f78ed662",
+      "status": "success",
+      "startedAt": "2026-10-19T23:05:02.535Z",
+      "fingerprint": "46efb5cdf5d2ee7590650dcfeef552d3d2fefcb41a263d94e254d06648a0dbee",
+      "toolchain": "xc7-3e5c2cdd-oss-20261019",
+      "diagnostics": [],
+      "stages": [
+        "Compile simulation",
+        "Run testbench"
+      ],
+      "waveform": {
+        "signals": 5,
+        "endTime": 2560000,
+        "timescale": "1 ps",
+        "truncated": false
+      },
+      "message": "Simulation completed; VCD captured.",
+      "finishedAt": "2026-10-19T23:05:02.776Z"
+    },
+    {
+      "id": "1792451102776-9ea95dc1",
+      "action": "build",
+      "directory": "/Users/tylermcclure/Documents/macvivado/.cache/verification/Projects with spaces/switch-to-led/.macvivado/builds/1792451102776-9ea95dc1",
+      "status": "success",
+      "startedAt": "2026-10-19T23:05:02.776Z",
+      "fingerprint": "46efb5cdf5d2ee7590650dcfeef552d3d2fefcb41a263d94e254d06648a0dbee",
+      "toolchain": "xc7-3e5c2cdd-oss-20261019",
+      "diagnostics": [],
+      "stages": [
+        "Synthesize · Yosys",
+        "Place & route · nextpnr",
+        "Convert FASM · Project X-Ray",
+        "Generate bitstream · Project X-Ray"
+      ],
+      "bitstream": "/Users/tylermcclure/Documents/macvivado/.cache/verification/Projects with spaces/switch-to-led/.macvivado/builds/1792451102776-9ea95dc1/design.bit",
+      "bitstreamSha256": "fdaee8e7a807b6b2d04be36dce6632295171f3e9a4ccb010eba7c41ddafbaef0",
+      "message": "Bitstream generated. Physical hardware verification pending.",
+      "finishedAt": "2026-10-19T23:05:10.360Z"
+    },
+    {
+      "id": "1792451110365-922efb5a",
+      "action": "simulate",
+      "directory": "/Users/tylermcclure/Documents/macvivado/.cache/verification/Projects with spaces/seven-segment/.macvivado/simulations/1792451110365-922efb5a",
+      "status": "success",
+      "startedAt": "2026-10-19T23:05:10.365Z",
+      "fingerprint": "e4ab8fcb5835b4b010abaad8f052750002cb14b6d084aebcab0c030e592392b3",
+      "toolchain": "xc7-3e5c2cdd-oss-20261019",
+      "diagnostics": [],
+      "stages": [
+        "Compile simulation",
+        "Run testbench"
+      ],
+      "waveform": {
+        "signals": 21,
+        "endTime": 2116000,
+        "timescale": "1 ps",
+        "truncated": false
+      },
+      "message": "Simulation completed; VCD captured.",
+      "finishedAt": "2026-10-19T23:05:10.612Z"
+    },
+    {
+      "id": "1792451110613-703cfc74",
+      "action": "build",
+      "directory": "/Users/tylermcclure/Documents/macvivado/.cache/verification/Projects with spaces/seven-segment/.macvivado/builds/1792451110613-703cfc74",
+      "status": "success",
+      "startedAt": "2026-10-19T23:05:10.613Z",
+      "fingerprint": "e4ab8fcb5835b4b010abaad8f052750002cb14b6d084aebcab0c030e592392b3",
+      "toolchain": "xc7-3e5c2cdd-oss-20261019",
+      "diagnostics": [],
+      "stages": [
+        "Synthesize · Yosys",
+        "Place & route · nextpnr",
+        "Convert FASM · Project X-Ray",
+        "Generate bitstream · Project X-Ray"
+      ],
+      "bitstream": "/Users/tylermcclure/Documents/macvivado/.cache/verification/Projects with spaces/seven-segment/.macvivado/builds/1792451110613-703cfc74/design.bit",
+      "bitstreamSha256": "3c3c78a7182920b052e248b7984d912c5cd2f6779ff2f7c1e5a302f8ee663baf",
+      "message": "Bitstream generated. Physical hardware verification pending.",
+      "finishedAt": "2026-10-19T23:05:16.675Z"
+    }
+  ]
+}

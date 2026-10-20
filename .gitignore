@@ -1,0 +1,10 @@
+node_modules/
+dist/
+release/
+.cache/
+.macvivado/
+test-results/
+playwright-report/
+*.log
+.DS_Store
+resources/tools/*.tgz

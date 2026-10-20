@@ -1,0 +1,106 @@
+{
+  "name": "macvivado",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Native Apple Silicon FPGA lab workbench for Nexys A7-100T",
+  "author": "MacVivado contributors",
+  "license": "MIT",
+  "type": "module",
+  "main": "dist/electron/main.cjs",
+  "scripts": {
+    "build": "tsc --noEmit && vite build && node scripts/bundle.mjs",
+    "start": "npm run build && electron .",
+    "dev": "vite --host 127.0.0.1",
+    "test": "vitest run",
+    "test:e2e": "npm run build && playwright test",
+    "verify:examples": "node --import tsx scripts/verify-examples.ts",
+    "tools:prepare": "node --import tsx scripts/prepare-tools.ts",
+    "package": "npm run build && electron-builder --mac dir dmg --arm64"
+  },
+  "build": {
+    "appId": "org.macvivado.ide",
+    "productName": "MacVivado",
+    "directories": {
+      "output": "release"
+    },
+    "files": [
+      "dist/**/*",
+      "package.json"
+    ],
+    "extraResources": [
+      {
+        "from": "examples",
+        "to": "examples",
+        "filter": [
+          "**/*",
+          "!.macvivado/**"
+        ]
+      },
+      {
+        "from": "resources",
+        "to": "resources"
+      }
+    ],
+    "asar": true,
+    "mac": {
+      "target": [
+        {
+          "target": "dir",
+          "arch": [
+            "arm64"
+          ]
+        },
+        {
+          "target": "dmg",
+          "arch": [
+            "arm64"
+          ]
+        }
+      ],
+      "category": "public.app-category.developer-tools",
+      "identity": null,
+      "minimumSystemVersion": "27.0.0",
+      "extendInfo": {
+        "NSHumanReadableCopyright": "MacVivado contributors. Open-source tool licenses included."
+      },
+      "icon": "resources/icon.icns"
+    },
+    "dmg": {
+      "title": "MacVivado",
+      "contents": [
+        {
+          "x": 130,
+          "y": 160
+        },
+        {
+          "x": 410,
+          "y": 160,
+          "type": "link",
+          "path": "/Applications"
+        }
+      ]
+    },
+    "afterPack": "scripts/after-pack.cjs"
+  },
+  "dependencies": {
+    "@monaco-editor/react": "4.7.0",
+    "monaco-editor": "0.57.0",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "zod": "4.6.7"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.64.1",
+    "@types/node": "26.6.5",
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
+    "@vitejs/plugin-react": "6.1.2",
+    "electron": "44.9.0",
+    "electron-builder": "26.15.3",
+    "esbuild": "0.28.2",
+    "tsx": "4.23.15",
+    "typescript": "7.0.2",
+    "vite": "8.3.4",
+    "vitest": "5.0.5"
+  }
+}

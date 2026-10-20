@@ -1,0 +1,657 @@
+{
+  "name": "Nexys A7-100T",
+  "part": "xc7a100tcsg324-1",
+  "programmer": "nexys_a7_100",
+  "clock": {
+    "port": "CLK100MHZ",
+    "pin": "E3",
+    "periodNs": 10
+  },
+  "source": "https://github.com/Digilent/digilent-xdc/blob/master/Nexys-A7-100T-Master.xdc",
+  "pins": {
+    "CLK100MHZ": {
+      "pin": "E3",
+      "standard": "LVCMOS33"
+    },
+    "SW[0]": {
+      "pin": "J15",
+      "standard": "LVCMOS33"
+    },
+    "SW[1]": {
+      "pin": "L16",
+      "standard": "LVCMOS33"
+    },
+    "SW[2]": {
+      "pin": "M13",
+      "standard": "LVCMOS33"
+    },
+    "SW[3]": {
+      "pin": "R15",
+      "standard": "LVCMOS33"
+    },
+    "SW[4]": {
+      "pin": "R17",
+      "standard": "LVCMOS33"
+    },
+    "SW[5]": {
+      "pin": "T18",
+      "standard": "LVCMOS33"
+    },
+    "SW[6]": {
+      "pin": "U18",
+      "standard": "LVCMOS33"
+    },
+    "SW[7]": {
+      "pin": "R13",
+      "standard": "LVCMOS33"
+    },
+    "SW[8]": {
+      "pin": "T8",
+      "standard": "LVCMOS18"
+    },
+    "SW[9]": {
+      "pin": "U8",
+      "standard": "LVCMOS18"
+    },
+    "SW[10]": {
+      "pin": "R16",
+      "standard": "LVCMOS33"
+    },
+    "SW[11]": {
+      "pin": "T13",
+      "standard": "LVCMOS33"
+    },
+    "SW[12]": {
+      "pin": "H6",
+      "standard": "LVCMOS33"
+    },
+    "SW[13]": {
+      "pin": "U12",
+      "standard": "LVCMOS33"
+    },
+    "SW[14]": {
+      "pin": "U11",
+      "standard": "LVCMOS33"
+    },
+    "SW[15]": {
+      "pin": "V10",
+      "standard": "LVCMOS33"
+    },
+    "LED[0]": {
+      "pin": "H17",
+      "standard": "LVCMOS33"
+    },
+    "LED[1]": {
+      "pin": "K15",
+      "standard": "LVCMOS33"
+    },
+    "LED[2]": {
+      "pin": "J13",
+      "standard": "LVCMOS33"
+    },
+    "LED[3]": {
+      "pin": "N14",
+      "standard": "LVCMOS33"
+    },
+    "LED[4]": {
+      "pin": "R18",
+      "standard": "LVCMOS33"
+    },
+    "LED[5]": {
+      "pin": "V17",
+      "standard": "LVCMOS33"
+    },
+    "LED[6]": {
+      "pin": "U17",
+      "standard": "LVCMOS33"
+    },
+    "LED[7]": {
+      "pin": "U16",
+      "standard": "LVCMOS33"
+    },
+    "LED[8]": {
+      "pin": "V16",
+      "standard": "LVCMOS33"
+    },
+    "LED[9]": {
+      "pin": "T15",
+      "standard": "LVCMOS33"
+    },
+    "LED[10]": {
+      "pin": "U14",
+      "standard": "LVCMOS33"
+    },
+    "LED[11]": {
+      "pin": "T16",
+      "standard": "LVCMOS33"
+    },
+    "LED[12]": {
+      "pin": "V15",
+      "standard": "LVCMOS33"
+    },
+    "LED[13]": {
+      "pin": "V14",
+      "standard": "LVCMOS33"
+    },
+    "LED[14]": {
+      "pin": "V12",
+      "standard": "LVCMOS33"
+    },
+    "LED[15]": {
+      "pin": "V11",
+      "standard": "LVCMOS33"
+    },
+    "LED16_B": {
+      "pin": "R12",
+      "standard": "LVCMOS33"
+    },
+    "LED16_G": {
+      "pin": "M16",
+      "standard": "LVCMOS33"
+    },
+    "LED16_R": {
+      "pin": "N15",
+      "standard": "LVCMOS33"
+    },
+    "LED17_B": {
+      "pin": "G14",
+      "standard": "LVCMOS33"
+    },
+    "LED17_G": {
+      "pin": "R11",
+      "standard": "LVCMOS33"
+    },
+    "LED17_R": {
+      "pin": "N16",
+      "standard": "LVCMOS33"
+    },
+    "CA": {
+      "pin": "T10",
+      "standard": "LVCMOS33"
+    },
+    "CB": {
+      "pin": "R10",
+      "standard": "LVCMOS33"
+    },
+    "CC": {
+      "pin": "K16",
+      "standard": "LVCMOS33"
+    },
+    "CD": {
+      "pin": "K13",
+      "standard": "LVCMOS33"
+    },
+    "CE": {
+      "pin": "P15",
+      "standard": "LVCMOS33"
+    },
+    "CF": {
+      "pin": "T11",
+      "standard": "LVCMOS33"
+    },
+    "CG": {
+      "pin": "L18",
+      "standard": "LVCMOS33"
+    },
+    "DP": {
+      "pin": "H15",
+      "standard": "LVCMOS33"
+    },
+    "AN[0]": {
+      "pin": "J17",
+      "standard": "LVCMOS33"
+    },
+    "AN[1]": {
+      "pin": "J18",
+      "standard": "LVCMOS33"
+    },
+    "AN[2]": {
+      "pin": "T9",
+      "standard": "LVCMOS33"
+    },
+    "AN[3]": {
+      "pin": "J14",
+      "standard": "LVCMOS33"
+    },
+    "AN[4]": {
+      "pin": "P14",
+      "standard": "LVCMOS33"
+    },
+    "AN[5]": {
+      "pin": "T14",
+      "standard": "LVCMOS33"
+    },
+    "AN[6]": {
+      "pin": "K2",
+      "standard": "LVCMOS33"
+    },
+    "AN[7]": {
+      "pin": "U13",
+      "standard": "LVCMOS33"
+    },
+    "CPU_RESETN": {
+      "pin": "C12",
+      "standard": "LVCMOS33"
+    },
+    "BTNC": {
+      "pin": "N17",
+      "standard": "LVCMOS33"
+    },
+    "BTNU": {
+      "pin": "M18",
+      "standard": "LVCMOS33"
+    },
+    "BTNL": {
+      "pin": "P17",
+      "standard": "LVCMOS33"
+    },
+    "BTNR": {
+      "pin": "M17",
+      "standard": "LVCMOS33"
+    },
+    "BTND": {
+      "pin": "P18",
+      "standard": "LVCMOS33"
+    },
+    "JA[1]": {
+      "pin": "C17",
+      "standard": "LVCMOS33"
+    },
+    "JA[2]": {
+      "pin": "D18",
+      "standard": "LVCMOS33"
+    },
+    "JA[3]": {
+      "pin": "E18",
+      "standard": "LVCMOS33"
+    },
+    "JA[4]": {
+      "pin": "G17",
+      "standard": "LVCMOS33"
+    },
+    "JA[7]": {
+      "pin": "D17",
+      "standard": "LVCMOS33"
+    },
+    "JA[8]": {
+      "pin": "E17",
+      "standard": "LVCMOS33"
+    },
+    "JA[9]": {
+      "pin": "F18",
+      "standard": "LVCMOS33"
+    },
+    "JA[10]": {
+      "pin": "G18",
+      "standard": "LVCMOS33"
+    },
+    "JB[1]": {
+      "pin": "D14",
+      "standard": "LVCMOS33"
+    },
+    "JB[2]": {
+      "pin": "F16",
+      "standard": "LVCMOS33"
+    },
+    "JB[3]": {
+      "pin": "G16",
+      "standard": "LVCMOS33"
+    },
+    "JB[4]": {
+      "pin": "H14",
+      "standard": "LVCMOS33"
+    },
+    "JB[7]": {
+      "pin": "E16",
+      "standard": "LVCMOS33"
+    },
+    "JB[8]": {
+      "pin": "F13",
+      "standard": "LVCMOS33"
+    },
+    "JB[9]": {
+      "pin": "G13",
+      "standard": "LVCMOS33"
+    },
+    "JB[10]": {
+      "pin": "H16",
+      "standard": "LVCMOS33"
+    },
+    "JC[1]": {
+      "pin": "K1",
+      "standard": "LVCMOS33"
+    },
+    "JC[2]": {
+      "pin": "F6",
+      "standard": "LVCMOS33"
+    },
+    "JC[3]": {
+      "pin": "J2",
+      "standard": "LVCMOS33"
+    },
+    "JC[4]": {
+      "pin": "G6",
+      "standard": "LVCMOS33"
+    },
+    "JC[7]": {
+      "pin": "E7",
+      "standard": "LVCMOS33"
+    },
+    "JC[8]": {
+      "pin": "J3",
+      "standard": "LVCMOS33"
+    },
+    "JC[9]": {
+      "pin": "J4",
+      "standard": "LVCMOS33"
+    },
+    "JC[10]": {
+      "pin": "E6",
+      "standard": "LVCMOS33"
+    },
+    "JD[1]": {
+      "pin": "H4",
+      "standard": "LVCMOS33"
+    },
+    "JD[2]": {
+      "pin": "H1",
+      "standard": "LVCMOS33"
+    },
+    "JD[3]": {
+      "pin": "G1",
+      "standard": "LVCMOS33"
+    },
+    "JD[4]": {
+      "pin": "G3",
+      "standard": "LVCMOS33"
+    },
+    "JD[7]": {
+      "pin": "H2",
+      "standard": "LVCMOS33"
+    },
+    "JD[8]": {
+      "pin": "G4",
+      "standard": "LVCMOS33"
+    },
+    "JD[9]": {
+      "pin": "G2",
+      "standard": "LVCMOS33"
+    },
+    "JD[10]": {
+      "pin": "F3",
+      "standard": "LVCMOS33"
+    },
+    "XA_N[1]": {
+      "pin": "A14",
+      "standard": "LVCMOS33"
+    },
+    "XA_P[1]": {
+      "pin": "A13",
+      "standard": "LVCMOS33"
+    },
+    "XA_N[2]": {
+      "pin": "A16",
+      "standard": "LVCMOS33"
+    },
+    "XA_P[2]": {
+      "pin": "A15",
+      "standard": "LVCMOS33"
+    },
+    "XA_N[3]": {
+      "pin": "B17",
+      "standard": "LVCMOS33"
+    },
+    "XA_P[3]": {
+      "pin": "B16",
+      "standard": "LVCMOS33"
+    },
+    "XA_N[4]": {
+      "pin": "A18",
+      "standard": "LVCMOS33"
+    },
+    "XA_P[4]": {
+      "pin": "B18",
+      "standard": "LVCMOS33"
+    },
+    "VGA_R[0]": {
+      "pin": "A3",
+      "standard": "LVCMOS33"
+    },
+    "VGA_R[1]": {
+      "pin": "B4",
+      "standard": "LVCMOS33"
+    },
+    "VGA_R[2]": {
+      "pin": "C5",
+      "standard": "LVCMOS33"
+    },
+    "VGA_R[3]": {
+      "pin": "A4",
+      "standard": "LVCMOS33"
+    },
+    "VGA_G[0]": {
+      "pin": "C6",
+      "standard": "LVCMOS33"
+    },
+    "VGA_G[1]": {
+      "pin": "A5",
+      "standard": "LVCMOS33"
+    },
+    "VGA_G[2]": {
+      "pin": "B6",
+      "standard": "LVCMOS33"
+    },
+    "VGA_G[3]": {
+      "pin": "A6",
+      "standard": "LVCMOS33"
+    },
+    "VGA_B[0]": {
+      "pin": "B7",
+      "standard": "LVCMOS33"
+    },
+    "VGA_B[1]": {
+      "pin": "C7",
+      "standard": "LVCMOS33"
+    },
+    "VGA_B[2]": {
+      "pin": "D7",
+      "standard": "LVCMOS33"
+    },
+    "VGA_B[3]": {
+      "pin": "D8",
+      "standard": "LVCMOS33"
+    },
+    "VGA_HS": {
+      "pin": "B11",
+      "standard": "LVCMOS33"
+    },
+    "VGA_VS": {
+      "pin": "B12",
+      "standard": "LVCMOS33"
+    },
+    "SD_RESET": {
+      "pin": "E2",
+      "standard": "LVCMOS33"
+    },
+    "SD_CD": {
+      "pin": "A1",
+      "standard": "LVCMOS33"
+    },
+    "SD_SCK": {
+      "pin": "B1",
+      "standard": "LVCMOS33"
+    },
+    "SD_CMD": {
+      "pin": "C1",
+      "standard": "LVCMOS33"
+    },
+    "SD_DAT[0]": {
+      "pin": "C2",
+      "standard": "LVCMOS33"
+    },
+    "SD_DAT[1]": {
+      "pin": "E1",
+      "standard": "LVCMOS33"
+    },
+    "SD_DAT[2]": {
+      "pin": "F1",
+      "standard": "LVCMOS33"
+    },
+    "SD_DAT[3]": {
+      "pin": "D2",
+      "standard": "LVCMOS33"
+    },
+    "ACL_MISO": {
+      "pin": "E15",
+      "standard": "LVCMOS33"
+    },
+    "ACL_MOSI": {
+      "pin": "F14",
+      "standard": "LVCMOS33"
+    },
+    "ACL_SCLK": {
+      "pin": "F15",
+      "standard": "LVCMOS33"
+    },
+    "ACL_CSN": {
+      "pin": "D15",
+      "standard": "LVCMOS33"
+    },
+    "ACL_INT[1]": {
+      "pin": "B13",
+      "standard": "LVCMOS33"
+    },
+    "ACL_INT[2]": {
+      "pin": "C16",
+      "standard": "LVCMOS33"
+    },
+    "TMP_SCL": {
+      "pin": "C14",
+      "standard": "LVCMOS33"
+    },
+    "TMP_SDA": {
+      "pin": "C15",
+      "standard": "LVCMOS33"
+    },
+    "TMP_INT": {
+      "pin": "D13",
+      "standard": "LVCMOS33"
+    },
+    "TMP_CT": {
+      "pin": "B14",
+      "standard": "LVCMOS33"
+    },
+    "M_CLK": {
+      "pin": "J5",
+      "standard": "LVCMOS33"
+    },
+    "M_DATA": {
+      "pin": "H5",
+      "standard": "LVCMOS33"
+    },
+    "M_LRSEL": {
+      "pin": "F5",
+      "standard": "LVCMOS33"
+    },
+    "AUD_PWM": {
+      "pin": "A11",
+      "standard": "LVCMOS33"
+    },
+    "AUD_SD": {
+      "pin": "D12",
+      "standard": "LVCMOS33"
+    },
+    "UART_TXD_IN": {
+      "pin": "C4",
+      "standard": "LVCMOS33"
+    },
+    "UART_RXD_OUT": {
+      "pin": "D4",
+      "standard": "LVCMOS33"
+    },
+    "UART_CTS": {
+      "pin": "D3",
+      "standard": "LVCMOS33"
+    },
+    "UART_RTS": {
+      "pin": "E5",
+      "standard": "LVCMOS33"
+    },
+    "PS2_CLK": {
+      "pin": "F4",
+      "standard": "LVCMOS33"
+    },
+    "PS2_DATA": {
+      "pin": "B2",
+      "standard": "LVCMOS33"
+    },
+    "ETH_MDC": {
+      "pin": "C9",
+      "standard": "LVCMOS33"
+    },
+    "ETH_MDIO": {
+      "pin": "A9",
+      "standard": "LVCMOS33"
+    },
+    "ETH_RSTN": {
+      "pin": "B3",
+      "standard": "LVCMOS33"
+    },
+    "ETH_CRSDV": {
+      "pin": "D9",
+      "standard": "LVCMOS33"
+    },
+    "ETH_RXERR": {
+      "pin": "C10",
+      "standard": "LVCMOS33"
+    },
+    "ETH_RXD[0]": {
+      "pin": "C11",
+      "standard": "LVCMOS33"
+    },
+    "ETH_RXD[1]": {
+      "pin": "D10",
+      "standard": "LVCMOS33"
+    },
+    "ETH_TXEN": {
+      "pin": "B9",
+      "standard": "LVCMOS33"
+    },
+    "ETH_TXD[0]": {
+      "pin": "A10",
+      "standard": "LVCMOS33"
+    },
+    "ETH_TXD[1]": {
+      "pin": "A8",
+      "standard": "LVCMOS33"
+    },
+    "ETH_REFCLK": {
+      "pin": "D5",
+      "standard": "LVCMOS33"
+    },
+    "ETH_INTN": {
+      "pin": "B8",
+      "standard": "LVCMOS33"
+    },
+    "QSPI_DQ[0]": {
+      "pin": "K17",
+      "standard": "LVCMOS33"
+    },
+    "QSPI_DQ[1]": {
+      "pin": "K18",
+      "standard": "LVCMOS33"
+    },
+    "QSPI_DQ[2]": {
+      "pin": "L14",
+      "standard": "LVCMOS33"
+    },
+    "QSPI_DQ[3]": {
+      "pin": "M14",
+      "standard": "LVCMOS33"
+    },
+    "QSPI_CSN": {
+      "pin": "L13",
+      "standard": "LVCMOS33"
+    }
+  }
+}

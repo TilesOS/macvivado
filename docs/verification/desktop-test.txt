@@ -1,0 +1,13 @@
+
+Running 1 test using 1 worker
+
+(node:50061) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+Desktop window created
+Project and native tools loaded
+Keyboard edit and Save dispatched
+Save verified on disk
+Simulation completed
+  ✓  1 tests/e2e/workbench.spec.ts:4:1 › desktop editing, save/reopen, simulation, waveforms, builds, diagnostics, and keyboard navigation (9.2s)
+
+  1 passed (9.4s)

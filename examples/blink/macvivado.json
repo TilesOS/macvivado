@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "name": "LED blink",
+  "board": "nexys-a7-100t",
+  "top": "top",
+  "sources": [
+    "rtl/top.v"
+  ],
+  "includeDirectories": [],
+  "defines": {},
+  "constraints": [
+    "constraints/nexys.xdc"
+  ],
+  "simulation": {
+    "top": "tb",
+    "sources": [
+      "sim/tb.v"
+    ],
+    "timeoutMs": 10000
+  }
+}
