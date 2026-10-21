@@ -62,7 +62,7 @@ The preset is derived from [Digilent’s official Nexys A7-100T master XDC](http
 | Switch to LED | Each of 16 switches drives its LED | 256 switch patterns |
 | Button counter | Center increments the rightmost decimal digit; down resets | Short-bounce rejection, no hold-repeat, decimal wrap, segment encoding, reset |
 
-All three produce real bitstreams with the delivered native toolchain. Evidence is in [docs/example-verification.json](docs/example-verification.json); physical verification remains pending in [docs/HARDWARE-CHECKLIST.md](docs/HARDWARE-CHECKLIST.md).
+All three produce real bitstreams with the delivered native toolchain. Software evidence is in [docs/example-verification.json](docs/example-verification.json). All three were programmed into a real board's SRAM and their physical behavior was confirmed by the user on October 20, 2026. Idle USB disconnect/reconnect and requiring a fresh build after saving an HDL change also passed. Programming logs, checksums, observations, and remaining interrupted-transfer/power-cycle checks are recorded separately in [docs/HARDWARE-CHECKLIST.md](docs/HARDWARE-CHECKLIST.md).
 
 The delivery also includes `release/example-artifacts/`, containing all three generated `.bit` files, VCDs, run logs, fingerprints, and bitstream checksums. Those artifacts do not bypass the app's current-build programming checks.
 

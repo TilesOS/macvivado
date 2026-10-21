@@ -1,6 +1,6 @@
 # Software verification — MacVivado 0.1.0
 
-Software verification completed on October 19, 2026 (America/New_York), on an ARM64 Mac running macOS 27.0.1. **No Nexys board was available. No successful physical detection or programming is claimed.**
+Software verification completed on October 19, 2026 (America/New_York), on an ARM64 Mac running macOS 27.0.1. No Nexys board was available for those software checks. Subsequent real-board verification on October 20, 2026 is recorded separately in [HARDWARE-CHECKLIST.md](HARDWARE-CHECKLIST.md).
 
 ## Delivered build
 
@@ -30,7 +30,7 @@ Software verification completed on October 19, 2026 (America/New_York), on an AR
 
 The 26 automated tests include missing tools, HTTP download failure, corrupt checksums, unsupported project versions, path traversal/symlink rejection, unsafe/unknown/duplicate pin assignments, missing or incorrect clock constraints, missing top-level constraints, actual HDL syntax errors, process cancellation, runtime/output/VCD limits, stale inputs, tampered bitstreams, failed-build readiness, and source/include/project paths containing spaces.
 
-Programmer orchestration tests use **isolated software fixtures only**. They verify USB serial selection, target mismatch refusal, the exact volatile-SRAM command, fresh provenance checks, multiple targets, disconnection, post-write disconnection, and transfer failures. Fixtures cannot be selected through the production preload/IPC interface. The actual openFPGALoader scan on this Mac returned no USB devices.
+Programmer orchestration tests use **isolated software fixtures only**. They verify USB serial selection, target mismatch refusal, the exact volatile-SRAM command, fresh provenance checks, multiple targets, disconnection, post-write disconnection, and transfer failures. Fixtures cannot be selected through the production preload/IPC interface. During the October 19 software-only checks, the actual openFPGALoader scan on this Mac returned no USB devices.
 
 ## Evidence files
 
@@ -41,6 +41,6 @@ Programmer orchestration tests use **isolated software fixtures only**. They ver
 - `release/example-artifacts/`: bitstreams, VCDs, complete logs, run records, and a checksum manifest.
 - `release/SHA256SUMS.txt`: final installer/source artifact checksums.
 
-## Deferred physical checks
+## Separate physical checks
 
-USB detection with an actual board, FPGA identity on that board, volatile programming, visible LED/switch/seven-segment behavior, and physical disconnect/reconnect behavior remain **unverified**. Complete `docs/HARDWARE-CHECKLIST.md` when the board is available. A passing software build or fixture test does not change that status.
+Real USB detection, FPGA identity, volatile programming, user-observed LED/switch/seven-segment behavior, idle USB disconnect/reconnect, and requiring a fresh build after saving an HDL change passed on October 20, 2026. Interrupted-transfer recovery and power-cycle checks remain pending. See [HARDWARE-CHECKLIST.md](HARDWARE-CHECKLIST.md) for actual programming logs, bitstream checksums, observations, and outstanding items. Software builds and fixture tests remain separate evidence.

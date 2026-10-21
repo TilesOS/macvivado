@@ -1,0 +1,20 @@
+{
+  "id": "1792546027011-1fc22a2a",
+  "action": "build",
+  "directory": "/Users/tylermcclure/Documents/macvivado/examples/seven-segment/.macvivado/builds/1792546027011-1fc22a2a",
+  "status": "success",
+  "startedAt": "2026-10-21T01:27:07.012Z",
+  "fingerprint": "dbad73a26cf4760c88471406ff57561f95b43af121874feea2deae3b82c48e8c",
+  "toolchain": "xc7-3e5c2cdd-oss-20261019",
+  "diagnostics": [],
+  "stages": [
+    "Synthesize · Yosys",
+    "Place & route · nextpnr",
+    "Convert FASM · Project X-Ray",
+    "Generate bitstream · Project X-Ray"
+  ],
+  "bitstream": "/Users/tylermcclure/Documents/macvivado/examples/seven-segment/.macvivado/builds/1792546027011-1fc22a2a/design.bit",
+  "bitstreamSha256": "7a3324a5d01e591de72f5c75e2fa1b6dd923e7fe5a2382a41bfda20d37db73c2",
+  "message": "Bitstream generated. Physical hardware verification pending.",
+  "finishedAt": "2026-10-21T01:27:11.402Z"
+}
